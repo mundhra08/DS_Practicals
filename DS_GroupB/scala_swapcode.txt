@@ -1,0 +1,29 @@
+---------------
+$vim Main_extends_App.scala
+press i
+'write your code'
+press esc
+:wq
+$scalac Main_extends_App.scala
+$scala Main_extends_App
+------------------
+
+
+
+
+
+object Main_extends_App {
+    var a = 5
+    var b = 10
+    
+    // print values before swapping
+    println("Before Swapping a = " +a+ " b =" +b)
+
+    // swap
+    var c = a
+    a = b
+    b = c
+    
+    // print the values after swapping
+    println("After Swapping a = " +a+ " b =" +b)
+}
