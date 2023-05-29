@@ -1,0 +1,19 @@
+way 1
+1.create a folder
+2.right click and open in terminal
+
+$vim Add1.scala
+press i
+'write your code'
+press esc
+:wq
+$scalac Add1.scala
+$scala Add1
+
+
+way 2
+1.create a folder
+2.In a text editor or notepad write a scala code and save the file with .scala extension, in the created folder-ex file name- Add1.scala
+
+3.scalac Add1.scala
+4.scala Add1
